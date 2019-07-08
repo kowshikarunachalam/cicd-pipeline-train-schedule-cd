@@ -29,7 +29,7 @@ pipeline {
                         sourceFiles: "dist/trainSchedule.zip",
                         removePrefix: 'dist/',
                         remoteDirectory: '/tmp',
-                        execCommand: 'unzip /tmp/trainSchedule.zip'
+                        execCommand: 'ls -lrt /tmp/trainSchedule.zip'
                     )
                                 ]
                             )
